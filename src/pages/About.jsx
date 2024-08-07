@@ -51,7 +51,7 @@ const About = () => {
                         const bgColor = bgColors[index % bgColors.length];
                         const textColor = bgColor === 'bg-black' ? 'text-white' : 'text-black';
                         return (
-                            <div key={index} className={`w-full sm:w-[220px] p-2 rounded-lg text-center ${bgColor} ${textColor} flex flex-col gap-5`}>
+                            <div key={index} className={`w-full sm:w-[220px] p-2 rounded-lg text-center ${bgColor} ${textColor} flex flex-col gap-2`}>
                                 <div>
                                     <i className={`${value.icon} text-xl`}></i>
                                     <h2 className={`${textColor} font-bold text-xl tracking-wider`}>{value.title}</h2>
